@@ -36,9 +36,10 @@ export default function WeekCalendar() {
           {daysOfWeek.map((item, index) => (
             <TouchableOpacity
               key={index}
-              className={selectedIndex === index ? styles.dayButtonSelected : styles.dayButtonUnselected}
-              onPress={() => setSelectedIndex(index)}
-            >
+              className={
+                selectedIndex === index ? styles.dayButtonSelected : styles.dayButtonUnselected
+              }
+              onPress={() => setSelectedIndex(index)}>
               <Text className={selectedIndex === index ? styles.dayTextSelected : styles.dayText}>
                 {item.day}
               </Text>
