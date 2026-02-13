@@ -34,7 +34,7 @@ export default function UsageTimeCard({
   return (
     <View className={styles.container}>
       <View className={styles.header}>
-        <Text className={styles.title}>Tiempo uso</Text>
+        <Text className={styles.title}>Tiempo</Text>
         <Ionicons name="timer-outline" size={20} color="#60A5FA" />
       </View>
       <Text className={styles.subtitle}>{subtitle}</Text>

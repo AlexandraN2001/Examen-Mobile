@@ -23,7 +23,7 @@ export default function WeekCalendar() {
     dayButton: `items-center justify-center px-5 py-3 rounded-2xl min-w-[60px]`,
     dayButtonSelected: `items-center justify-center px-5 py-3 rounded-2xl min-w-[60px] bg-blue-400`,
     dayButtonUnselected: `items-center justify-center px-5 py-3 rounded-2xl min-w-[60px] bg-gray-100`,
-    dayText: `text-sm text-gray-600 mb-1`,
+    dayText: `text-sm text--600 mb-1`,
     dayTextSelected: `text-sm text-white mb-1`,
     dateText: `text-lg font-semibold text-gray-900`,
     dateTextSelected: `text-lg font-semibold text-white`,

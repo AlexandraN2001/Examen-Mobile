@@ -24,7 +24,7 @@ export default function HomeScreen() {
     <SafeAreaView className={styles.container} edges={['top']}>
       <ScrollView className={styles.content} showsVerticalScrollIndicator={false}>
         {/* Header */}
-        <Header userName="Daniel" />
+        <Header userName="Alexandra" />
 
         {/* Week Calendar */}
         <WeekCalendar />
@@ -39,7 +39,7 @@ export default function HomeScreen() {
 
         <View className={styles.statsContainer}>
           <StressChart />
-          <UsageTimeCard percentage={85} remainingMinutes={20} />
+          <UsageTimeCard percentage={75} remainingMinutes={20} />
         </View>
 
         {/* Programs Section */}
@@ -56,7 +56,27 @@ export default function HomeScreen() {
             timeRange="13h00 - 14h00"
             icon="restaurant-outline"
           />
-        </View>
+          <ProgramCard
+            title="Reunion con amigos"
+            timeRange="15h00 - 17h00"
+            icon="people-outline"
+          />
+          <ProgramCard
+            title="Reunion con amigos"
+            timeRange="15h00 - 17h00"
+            icon="people-outline"
+          />
+          <ProgramCard
+            title="Reunion con amigos"
+            timeRange="15h00 - 17h00"
+            icon="people-outline"
+          />
+        <ProgramCard
+            title="Reunion con amigos"
+            timeRange="15h00 - 17h00"
+            icon="people-outline"
+          />
+       </View>
       </ScrollView>
 
       {/* Bottom Navigation */}
